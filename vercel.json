@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/install.sh" }
+    { "source": "/install.sh", "destination": "/ }
   ],
   "headers": [
     {
