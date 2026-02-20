@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/install.sh", "destination": "/" }
+    { "source": "/", "destination": "https://raw.githubusercontent.com/Louchatfroff/betterLinuxGeodeInstaller/refs/heads/main/betterLinuxGeodeInstaller.sh" }
   ],
   "headers": [
     {
