@@ -1022,7 +1022,6 @@ configure_steam() {
         local uid
         uid="$(basename "$(dirname "$(dirname "$localconfig")")")"
         echo -e "  Writing launch options (Steam user ${CYAN}$uid${NC})..."
-        # shellcheck disable=SC2090
         if $PY_CMD "$TEMP_DIR/vdf_edit.py" launch-opts "$localconfig" "$GD_APP_ID" \
                 "$LAUNCH_OPTS" 2>&1 | grep -q OK; then
             verbose_log "localconfig.vdf updated for user $uid (backup saved)"
@@ -1144,7 +1143,7 @@ MMMMMMMMMNO:     ...     .cKWMMMMMMMMMMM
 MMMMMMMMMMNx,. .;dk:.   .;kNMMMMMMMMMMMM
 MMMMMMMMMMMN0ocxXWNkl:,:xXWMMMMMMMMMMMMM
 MMMMMMMMMMMMMWNWMMMWWNNNWMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMLOUCHATM
 }
 
 
@@ -1182,3 +1181,9 @@ echo -e "  Right-click GD > Properties > General > Launch Options:"
 echo -e "  ${CYAN}${LAUNCH_OPTS}${NC}"
 echo ""
 echo "Have fun, larp :P"
+
+#ALL CREDIT FOR ORIGINAL PROJECT, MOD REPO GOES TO GEODE TEAM <3
+#ALL CREDIT FOR ORIGINAL PROJECT AND MOD DOCUMENTATION GOES TO GEODE TEAM <3
+#ALL CREDIT FOR PROTON PATCHING GOES TO THAT ONE GUY ON REDDIT I DONT REMEMBER AND I CANT FIND <3
+#ALL CREDIT FOR PROTON AND STEAM GOES TO VALVE <3
+#ALL CREDIT FOR REPETITIVE AND ANNOYING TASKS AND STEAM FILES TROUBLESHOOTING GOES TO CLAUDE AI
